@@ -3,7 +3,7 @@
 body {
     font-family:'IBM Plex Sans KR',Arial, Helvetica, sans-serif;
 }
-.inner {width: 90%;}
+.inner {width: 90%; margin: auto;}
 a {color: #333;}
 
 #container{
@@ -129,13 +129,13 @@ header {
 }
 .category h3 {
     padding:20px 0 20px 0;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .category h3 a::after{
     display: inline-block;
     content: "";
-    width: 16px; height: 16px;
+    width: 18px; height: 18px;
     background: url(../img/arrow.png)no-repeat center center/ 16px 16px ;
     vertical-align: bottom;
     margin-left: 4px;
@@ -180,13 +180,13 @@ header {
     padding: 10px 0 40px 0;
 }
 .sliders > div > h3 {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 20px ;
 }
 .sliders > div > h3 a::after{
     display: inline-block;
     content: "";
-    width: 16px; height: 16px;
+    width: 18px; height: 18px;
     background: url(../img/arrow.png)no-repeat center center/ 16px 16px ;
     vertical-align: bottom;
     margin-left: 4px;
@@ -253,17 +253,20 @@ header {
 }
 /* 후기 고객센터 */
 .bottom_container {
-    width: 354px; 
+    width: 335px; 
     margin: auto;
+    border: 1px solid red;
 }
 .review {
-    width: 344px;
+    width: 335px;
 }
 .review_title {
     margin:20px 0 20px 10px;
     font-size: 16px;
 }
-.review_title a {}
+.review_title a {
+    font-size: 18px;
+}
 .review ul {
 }
 .review ul li {
@@ -293,11 +296,11 @@ header {
 .info {
     display: flex;
     justify-content: space-between;
-    width: 354px; margin: auto;
+    width: 335px; margin: auto;
     padding-top: 70px;
 }
 .cs_center {
-    width: 177px;
+    width: 167px;
 }
 .cs_center h2 {
     margin-bottom: 15px;
@@ -311,7 +314,7 @@ header {
 }
 .cs_info {
     display: block;
-    width: 150px; height: 40px;
+    width: 130px; height: 40px;
     border-radius: 5px;
     background: #E8E8E8;
     border: none;
