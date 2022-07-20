@@ -98,8 +98,8 @@ header {
 .headwrap .search button {
     position: absolute;
     display: block;
-    right: 10px; top: 5px;
-    width: 20px;
+    right: 10px; top: 3px;
+    width: 25px; height: 25px;
     background: url(../img/search.png)no-repeat center center /25px 25px;
     text-indent: -9999px;
     cursor: pointer;
