@@ -72,10 +72,13 @@ header {
     width: 30px; height: 30px;
 }
 
+.headwrap .search_wrap {
+}
 .headwrap .search {
     position: relative;
-    width: 75%; margin: auto;
+    width: 65%; margin: auto;
     height: 30px;
+    right: 3vw;
 }
 .headwrap .search form {
 }
